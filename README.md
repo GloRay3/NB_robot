@@ -22,4 +22,6 @@
    
 ![MAGA!](photos/MAGA.png)  
 
-![CuiFeng](photos/CuiFeng.jpg)  
+<div align="center">
+  <img src="photos/CuiFeng.jpg" width="400">
+</div>
