@@ -39,6 +39,7 @@
 >
 (**可选**)源视频经过**加噪**处理。尝试使用**opencv**库进行**降噪**处理再进行降噪   
 **可参考的文件目录**
+```console
 src/  
 ├── auto_aim  
 │   ├── CMakeLists.txt  
@@ -74,3 +75,4 @@ src/
         ├── test_copyright.py  
         ├── test_flake8.py  
         └── test_pep257.py  
+```
