@@ -38,4 +38,39 @@
 > - 其他
 >
 (**可选**)源视频经过**加噪**处理。尝试使用**opencv**库进行**降噪**处理再进行降噪   
-(**可选**)尝试使用**docker**进行**打包**。相关内容可写在**thought.md文件**里。
+**可参考的文件目录**
+src/
+├── auto_aim
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── auto_aim
+│   ├── LICENSE
+│   ├── package.xml
+│   └── src
+│       └── auto_aim_turret.cpp
+├── auto_aim_interfaces
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── auto_aim_interfaces
+│   ├── LICENSE
+│   ├── msg
+│   │   ├── Position.msg
+│   │   └── ResultOrder.msg
+│   ├── package.xml
+│   └── src
+└── det_ctrl
+    ├── det_ctrl
+    │   ├── detect.py
+    │   └── __init__.py
+    ├── LICENSE
+    ├── package.xml
+    ├── resource
+    │   ├── det_ctrl
+    │   ├── orivedio.mp4
+    │   └── yolov8n.pt
+    ├── setup.cfg
+    ├── setup.py
+    └── test
+        ├── test_copyright.py
+        ├── test_flake8.py
+        └── test_pep257.py
